@@ -72,12 +72,6 @@ const Banner = () => {
                                  VIEW SERVICES &nbsp; | <i className="icon-right-arrow"></i>
                                  <span style={{ top: "147.172px", left: "108.5px" }}></span>
                               </a>
-                              <div className="round-image-area">
-                                 <div className="image-1">
-                                    <Image src={client_img} alt="" />
-                                 </div>
-                              </div>
-                              <h6>satisfied clients</h6>
                            </div>
                         </div>
                         <div className="socials-area">
