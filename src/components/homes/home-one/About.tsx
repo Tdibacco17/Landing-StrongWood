@@ -16,17 +16,17 @@ interface DataType {
 }
 
 const about_data: DataType = {
-   sub_title: "About Us",
-   title: "Devoted to Delivering Top Notch Roofing Solutions",
-   desc: "It is a long established fact that a reader will be distracted the readable content of a page when looking at layout the point of using lorem the is Ipsum less normal distribution of letters.",
+   sub_title: "¿POR QUÉ ELEGIRNOS?",
+   title: "La Solución Confiable para tus Proyectos",
+   desc: "En StrongWood, entendemos los desafíos de una obra. Por eso, no solo fabricamos muebles de primera, sino que ofrecemos una experiencia integral que te simplifica la vida, te garantiza calidad y te ayuda a cumplir tus objetivos. Somos tu socio estratégico para que cada proyecto sea un éxito.",
    feature_list: [
       {
          id: 1,
-         list: ["Accurate Testing Processes", "100% Satisfaction Guarantee", "Award Winning Company"],
+         list: ["Especialistas en Obras", "Gestión Total del Amoblamiento", "Plazos de Entrega Garantizados"],
       },
       {
          id: 2,
-         list: ["300+ Successful Projects done", "Professional Engineers Provide", "Damage Roofing Repair"],
+         list: ["Calidad Premium en Acabados", "Equipo de Instalación Propio", "Mayor Satisfacción Postventa"],
       },
    ],
 }
@@ -52,15 +52,6 @@ const About = ({ style }: PropType) => {
                      <div className="small-image">
                         <Image src={about_2} alt="" />
                      </div>
-                     <div className="icon-box">
-                        <div className="icon">
-                           <i className="icon-prize-1"></i>
-                        </div>
-                        <div className="content">
-                           <h3 className="mb-10"><span className="counter"><Count number={10} /></span>+</h3>
-                           <p>World Best Roofing Award Got</p>
-                        </div>
-                     </div>
                      <div className="shape-1" style={{ backgroundImage: `url(/assets/imgs/shapes/shape-29.png)` }}></div>
                   </div>
                </div>
@@ -84,18 +75,10 @@ const About = ({ style }: PropType) => {
                      </div>
                      <div className="about-2-btn-area">
                         <Link className="primary-btn-1 btn-hover" href="/about">
-                           about us &nbsp; | <i className="icon-right-arrow"></i>
+                           COTIZAR PROYECTO &nbsp; | <i className="icon-right-arrow"></i>
                            <span style={{ top: "147.172px", left: "108.5px" }}></span>
                         </Link>
-                        <div className="call-us">
-                           <div className="icon-1">
-                              <i className="fal fa-phone-volume"></i>
-                           </div>
-                           <div className="content p-relative">
-                              <span>Call Us Now</span>
-                              <h5><Link href="tel:2085550112">+208-555-0112</Link></h5>
-                           </div>
-                        </div>
+                       
                      </div>
                   </div>
                </div>

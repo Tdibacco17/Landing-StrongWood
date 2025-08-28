@@ -2,7 +2,7 @@ import HomeOne from "@/components/homes/home-one";
 import Wrapper from "@/layouts/Wrapper";
 
 export const metadata = {
-  title: "Gramen - Roofing Services React Next js Template",
+  title: "Strong Wood - Muebles para Proyectos Inmobiliarios",
 };
 const page = () => {
   return (

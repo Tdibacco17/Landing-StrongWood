@@ -1,11 +1,8 @@
 "use client"
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination, EffectFade } from 'swiper/modules';
-import Image from "next/image";
-import Link from "next/link";
 import { JSX } from 'react';
 
-import client_img from "@/assets/imgs/banner/clients-group.png"
 
 interface DataType {
    id: number;
@@ -18,24 +15,17 @@ interface DataType {
 const banner_data: DataType[] = [
    {
       id: 1,
-      thumb: "assets/imgs/banner/banner-3.jpg",
-      sub_title: "PROVIDE THE BEST SERVICES",
-      title: "Our Best Roofing Services & Consulting",
-      desc: (<>We denounce with righteous indignation and dislike men who are so<br /> beguiled and demoralized by the charms of pleasure.</>),
+      thumb: "assets/imgs/banner/4.webp",
+      sub_title: "SOLUCIONES EN AMOBLAMIENTO",
+      title: "Fabricación de Muebles para Obras",
+      desc: (<>Soluciones integrales en cocinas, placares y vanitories. <br /> Un solo proveedor, cero complicaciones.</>),
    },
    {
       id: 2,
-      thumb: "assets/imgs/banner/banner-3.jpg",
-      sub_title: "PROVIDE THE BEST SERVICES",
-      title: "Our Best Roofing Services & Consulting",
-      desc: (<>We denounce with righteous indignation and dislike men who are so<br /> beguiled and demoralized by the charms of pleasure.</>),
-   },
-   {
-      id: 3,
-      thumb: "assets/imgs/banner/banner-3.jpg",
-      sub_title: "PROVIDE THE BEST SERVICES",
-      title: "Our Best Roofing Services & Consulting",
-      desc: (<>We denounce with righteous indignation and dislike men who are so<br /> beguiled and demoralized by the charms of pleasure.</>),
+      thumb: "assets/imgs/banner/5.webp",
+      sub_title: "TU SOCIO EN OBRAS",
+      title: "El Aliado que Tu Proyecto Necesita",
+      desc: (<>Simplificá la gestión de amoblamientos  <br /> y potenciá el valor de cada una de tus unidades.</>),
    },
 ]
 
@@ -69,19 +59,10 @@ const Banner = () => {
                            <p className="banner-text">{item.desc}</p>
                            <div className="banner-btn-area-2">
                               <a className="primary-btn-1 btn-hover" href="services.html">
-                                 VIEW SERVICES &nbsp; | <i className="icon-right-arrow"></i>
+                                  PEDIR PRESUPUESTO &nbsp; | <i className="icon-right-arrow"></i>
                                  <span style={{ top: "147.172px", left: "108.5px" }}></span>
                               </a>
                            </div>
-                        </div>
-                        <div className="socials-area">
-                           <ul>
-                              <li><Link href="#"><i className="fab fa-facebook-f"></i></Link></li>
-                              <li><Link href="#"><i className="fab fa-twitter"></i></Link></li>
-                              <li><Link href="#"><i className="fab fa-linkedin-in"></i></Link></li>
-                              <li><Link href="#"><i className="fab fa-youtube"></i></Link></li>
-                           </ul>
-                           <span>FOLLOW US</span>
                         </div>
                      </div>
                   </div>
@@ -89,9 +70,6 @@ const Banner = () => {
                      <div className="shape-1" style={{ backgroundImage: `url(/assets/imgs/shapes/shape-18.png)` }}></div>
                      <div className="shape-2" style={{ backgroundImage: `url(/assets/imgs/shapes/shape-19.png)` }}></div>
                      <div className="shape-3" style={{ backgroundImage: `url(/assets/imgs/shapes/shape-20.png)` }}></div>
-                     <div className="shape-4" style={{ backgroundImage: `url(/assets/imgs/shapes/shape-21.png)` }}></div>
-                     <div className="shape-5" style={{ backgroundImage: `url(/assets/imgs/shapes/shape-22.png)` }}></div>
-                     <div className="shape-6" style={{ backgroundImage: `url(/assets/imgs/shapes/shape-23.png)` }}></div>
                   </div>
                </SwiperSlide>
             ))}
