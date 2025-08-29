@@ -1,50 +1,39 @@
 import { StaticImageData } from "next/image";
 
-import avatar_1 from "@/assets/imgs/resources/testimonials-2.png"
-import avatar_2 from "@/assets/imgs/resources/testimonials-1.png"
+// Usamos solo las 2 imágenes que ya existen en la plantilla
+import avatar_1 from "@/assets/imgs/resources/testimonials-1.png";
+import avatar_2 from "@/assets/imgs/resources/testimonials-2.png";
 
 interface DataType {
-   id: number;
-   page: string;
-   avatar: StaticImageData;
-   name: string;
-   designation: string;
-   desc: string;
+    id: number;
+    avatar: StaticImageData;
+    name: string;
+    designation: string;
+    desc: string;
 }
 
 const testi_data: DataType[] = [
-   {
-      id: 1,
-      page: "home_1",
-      avatar: avatar_1,
-      name: "Kathryn Murphy",
-      designation: "Engineering",
-      desc: "“ Consectetur adipiscing elit. Integer nunc viverra laoreet est the is porta pretium metus aliquam eget maecenas porta is nunc viverra Aenean pulvinar maximus leo ”"
-   },
-   {
-      id: 2,
-      page: "home_1",
-      avatar: avatar_2,
-      name: "Kathryn Murphy",
-      designation: "Engineering",
-      desc: "“ Consectetur adipiscing elit. Integer nunc viverra laoreet est the is porta pretium metus aliquam eget maecenas porta is nunc viverra Aenean pulvinar maximus leo ”"
-   },
-   {
-      id: 3,
-      page: "home_1",
-      avatar: avatar_1,
-      name: "Kathryn Murphy",
-      designation: "Engineering",
-      desc: "“ Consectetur adipiscing elit. Integer nunc viverra laoreet est the is porta pretium metus aliquam eget maecenas porta is nunc viverra Aenean pulvinar maximus leo ”"
-   },
-   {
-      id: 4,
-      page: "home_1",
-      avatar: avatar_2,
-      name: "Kathryn Murphy",
-      designation: "Engineering",
-      desc: "“ Consectetur adipiscing elit. Integer nunc viverra laoreet est the is porta pretium metus aliquam eget maecenas porta is nunc viverra Aenean pulvinar maximus leo ”"
-   },
+    {
+        id: 1,
+        avatar: avatar_1,
+        name: "Lucila Cicciaro + Natalia Helou",
+        designation: "CicciaroHelou Arquitectura",
+        desc: "“Gracias equipo de Strongwood por su profesionalismo y atención. Cumpliendo en tiempo, forma y gran predisposición! ❤”"
+    },
+    {
+        id: 2,
+        avatar: avatar_2,
+        name: "Carolina Lipszyc y Melanie Zusmanovicius",
+        designation: "Arquitectas",
+        desc: "“Muy buena atención y predisposición! Cumplieron con el tiempo de entrega. La cocina quedó super linda!”"
+    },
+    {
+        id: 3,
+        avatar: avatar_1, // Reutilizamos la primera imagen para evitar errores
+        name: "OJA-Arquitectos",
+        designation: "Estudio de Arquitectura",
+        desc: "“Un equipo con todo el compromiso y la mejor predisposición. 100% recomendables!”"
+    },
 ];
 
 export default testi_data;

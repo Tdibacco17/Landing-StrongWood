@@ -1,6 +1,8 @@
+// NO se necesitan importaciones de 'react-icons' ni de iconos específicos.
+
 interface Datatype {
     id: number;
-    icon: string;
+    icon: string; // El tipo de dato para el icono es 'string' (clase CSS)
     title: string;
     desc: string;
 }
@@ -8,19 +10,22 @@ interface Datatype {
 const process_data: Datatype[] = [
     {
         id: 1,
-        icon: "icon-blueprint", // Icono de plano o diseño
+        // Clases de Font Awesome para planificación/diseño
+        icon: "fa-solid fa-ruler-combined", // Icono de regla y escuadra
         title: "Planificación y Diseño",
         desc: "Analizamos los planos de tu obra, definimos los diseños y materiales, y te presentamos un presupuesto detallado. Acá le damos forma al proyecto.",
     },
     {
         id: 2,
-        icon: "icon-cogs", // Icono de engranajes o fábrica
+        // Clases de Font Awesome para producción/control
+        icon: "fa-solid fa-gears", // Icono de engranajes
         title: "Producción y Control",
         desc: "Fabricamos todos los amoblamientos a medida en nuestro taller, con un control de calidad exhaustivo para garantizar un resultado perfecto.",
     },
     {
         id: 3,
-        icon: "icon-shipping-fast", // Icono de camión de reparto o entrega
+        // Clases de Font Awesome para instalación/entrega
+        icon: "fa-solid fa-truck-fast", // Icono de camión de entrega rápida
         title: "Instalación y Entrega",
         desc: "Coordinamos la logística y enviamos a nuestro equipo propio para instalar todo en obra, asegurando una terminación limpia y profesional.",
     },
@@ -44,6 +49,7 @@ const Process = ({ style }: PropType) => {
                         <div key={item.id} className="col-xxl-4 col-xl-4 col-lg-4">
                             <div className="work-process-box text-center ">
                                 <div className="icon-box p-relative">
+                                    {/* Usamos la etiqueta <i> con la clase de Font Awesome */}
                                     <i className={item.icon}></i>
                                     <span>{item.id}</span>
                                 </div>

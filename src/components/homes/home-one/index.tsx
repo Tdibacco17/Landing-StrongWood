@@ -18,9 +18,7 @@ const HomeOne = () => {
         <Service style={false} />
         <Process style={false} />
         <TextSlider style={false}/>
-        <Counter style={false} />
         <Testimonial />
-        
       </main>
       <FooterOne />
     </>
