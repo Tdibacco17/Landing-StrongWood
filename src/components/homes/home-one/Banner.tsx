@@ -20,6 +20,7 @@ const banner_data: DataType[] = [
       title: "Fabricación de Muebles para Obras",
       desc: (<>Soluciones integrales en cocinas, placares y vanitories. <br /> Un solo proveedor, cero complicaciones.</>),
    },
+
    {
       id: 2,
       thumb: "assets/imgs/banner/5.webp",
@@ -27,6 +28,7 @@ const banner_data: DataType[] = [
       title: "El Aliado que Tu Proyecto Necesita",
       desc: (<>Simplificá la gestión de amoblamientos  <br /> y potenciá el valor de cada una de tus unidades.</>),
    },
+   
 ]
 
 const setting = {
@@ -58,7 +60,7 @@ const Banner = () => {
                            <h1 className="banner-title">{item.title}</h1>
                            <p className="banner-text">{item.desc}</p>
                            <div className="banner-btn-area-2">
-                              <a className="primary-btn-1 btn-hover" href="services.html">
+                              <a className="primary-btn-1 btn-hover" href="#contacto">
                                   PEDIR PRESUPUESTO &nbsp; | <i className="icon-right-arrow"></i>
                                  <span style={{ top: "147.172px", left: "108.5px" }}></span>
                               </a>
@@ -66,11 +68,7 @@ const Banner = () => {
                         </div>
                      </div>
                   </div>
-                  <div className="shape-area-2">
-                     <div className="shape-1" style={{ backgroundImage: `url(/assets/imgs/shapes/shape-18.png)` }}></div>
-                     <div className="shape-2" style={{ backgroundImage: `url(/assets/imgs/shapes/shape-19.png)` }}></div>
-                     <div className="shape-3" style={{ backgroundImage: `url(/assets/imgs/shapes/shape-20.png)` }}></div>
-                  </div>
+                  
                </SwiperSlide>
             ))}
          </Swiper>

@@ -23,8 +23,8 @@ const testi_data: DataType[] = [
     {
         id: 2,
         avatar: avatar_2,
-        name: "Carolina Lipszyc y Melanie Zusmanovicius",
-        designation: "Arquitectas",
+        name: "Carolina Lipszyc",
+        designation: "Arquitecta",
         desc: "“Muy buena atención y predisposición! Cumplieron con el tiempo de entrega. La cocina quedó super linda!”"
     },
     {

@@ -9,7 +9,7 @@ const setting = {
     slidesPerView: 1,
     loop: true,
     autoplay: {
-        delay: 5000, // Aumenté un poco el tiempo para que se pueda leer bien
+        delay: 5000,
         disableOnInteraction: false,
     },
     pagination: false,
@@ -21,11 +21,9 @@ const setting = {
 
 const Testimonial = () => {
     return (
-        <section className="testimonials-section p-relative section-space fix" style={{ backgroundImage: `url(/assets/imgs/bg/testimonial-bg.png)` }}>
-            <div className="bg-shape" style={{ backgroundImage: `url(/assets/imgs/bg/testimonial-bg-1.png)` }}></div>
-            <div className="bg-shape-1" style={{ backgroundImage: `url(/assets/imgs/bg/testimonial-bg-2.png)` }}></div>
+   
+        <section id="contacto" className="testimonials-section p-relative section-space fix" style={{ backgroundImage: `url(/assets/imgs/bg/testimonial-bg.png)` }}>
             <div className="bg-shape-2" style={{ backgroundImage: `url(/assets/imgs/shapes/shape-16.png)` }}></div>
-            <div className="bg-shape-3" style={{ backgroundImage: `url(/assets/imgs/shapes/shape-17.png)` }}></div>
             <div className="small-container">
                 <div className="row">
                     {/* --- Columna Izquierda (Formulario) --- */}
@@ -35,7 +33,6 @@ const Testimonial = () => {
                                 <span className="section-sub-title text-white">CONTACTANOS</span>
                                 <h3 className="section-title mt-10 text-white">¿Tenés un Proyecto? Hablemos.</h3>
                             </div>
-                            {}
                             <TestimonialForm />
                         </div>
                     </div>
@@ -60,7 +57,6 @@ const Testimonial = () => {
                                                     <h5>{item.name}</h5>
                                                     <span>{item.designation}</span>
                                                     <ul className="rating-list">
-                                                        {/* Rating de 5 estrellas */}
                                                         <li><i className="fa fa-star"></i></li>
                                                         <li><i className="fa fa-star"></i></li>
                                                         <li><i className="fa fa-star"></i></li>

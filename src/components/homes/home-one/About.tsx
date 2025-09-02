@@ -2,8 +2,8 @@ import Image from "next/image";
 import Link from "next/link";
 import Count from "@/components/common/Count";
 
-import about_1 from "@/assets/imgs/about/about-3.jpg"
-import about_2 from "@/assets/imgs/about/about-4.jpg"
+import about_1 from "@/assets/imgs/about/Foto 2 Strong.webp"
+import about_2 from "@/assets/imgs/about/Foto 1 Strong.webp"
 
 interface DataType {
    sub_title: string;
@@ -74,7 +74,7 @@ const About = ({ style }: PropType) => {
                         ))}
                      </div>
                      <div className="about-2-btn-area">
-                        <Link className="primary-btn-1 btn-hover" href="/about">
+                        <Link className="primary-btn-1 btn-hover" href="#contacto">
                            COTIZAR PROYECTO &nbsp; | <i className="icon-right-arrow"></i>
                            <span style={{ top: "147.172px", left: "108.5px" }}></span>
                         </Link>
