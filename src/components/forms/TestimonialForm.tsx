@@ -2,7 +2,7 @@
 import { useForm } from "react-hook-form";
 import * as yup from "yup";
 import { yupResolver } from '@hookform/resolvers/yup';
-import { ToastContainer, toast } from 'react-toastify';
+import { toast } from 'react-toastify';
 import { submitContact } from "@/app/actions";
 import { useRef, useState } from "react";
 import { useGoogleReCaptcha } from "react-google-recaptcha-v3";
@@ -80,7 +80,6 @@ const TestimonialForm = () => {
     return (
         // 5. Conecta handleSubmit al evento onSubmit del formulario
         <form ref={form} onSubmit={handleSubmit(sendEmail)}>
-            <ToastContainer position="bottom-right" />
             {/* Hidden reCAPTCHA v3 */}
             <input type="hidden" name="g-recaptcha-token" />
             <input type="hidden" name="g-recaptcha-action" value="contact_submit" />

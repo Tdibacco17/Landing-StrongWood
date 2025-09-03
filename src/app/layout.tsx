@@ -42,6 +42,7 @@ export default function RootLayout({
       {/* </head> */}
       <body className={`${inter.variable} ${roboto.variable}`} suppressHydrationWarning={true}>
         <Providers>
+          
           {children}
         </Providers>
       </body>

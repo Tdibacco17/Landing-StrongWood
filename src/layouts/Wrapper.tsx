@@ -1,9 +1,8 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
 "use client";
 import { ToastContainer } from "react-toastify";
 import ScrollToTop from "@/components/common/ScrollToTop";
 
-const Wrapper = ({ children }: any) => {
+const Wrapper = ({ children }: { children: React.ReactNode }) => {
 
     return <>
         {children}

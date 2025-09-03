@@ -20,7 +20,6 @@ const setting = {
 
 const Testimonial = () => {
     return (
-   
         <section id="contacto" className="testimonials-section p-relative section-space fix" style={{ backgroundImage: `url(/assets/imgs/bg/testimonial-bg.png)` }}>
             <div className="bg-shape-2" style={{ backgroundImage: `url(/assets/imgs/shapes/shape-16.png)` }}></div>
             <div className="small-container">

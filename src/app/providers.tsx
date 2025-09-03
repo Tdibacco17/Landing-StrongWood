@@ -1,5 +1,6 @@
 "use client";
 import { GoogleReCaptchaProvider } from "react-google-recaptcha-v3";
+import Wrapper from "@/layouts/Wrapper";
 
 export default function Providers({ children }: { children: React.ReactNode }) {
     return (
@@ -12,7 +13,9 @@ export default function Providers({ children }: { children: React.ReactNode }) {
                 // nonce: undefined,  
             }}
         >
-            {children}
+            <Wrapper>
+                {children}
+            </Wrapper>
         </GoogleReCaptchaProvider>
     );
 }
