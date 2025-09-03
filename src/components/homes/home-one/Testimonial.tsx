@@ -2,7 +2,6 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Navigation } from 'swiper/modules';
 import TestimonialForm from "@/components/forms/TestimonialForm";
-import Image from "next/image";
 import testi_data from '@/data/TestimonialData';
 
 const setting = {

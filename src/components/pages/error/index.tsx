@@ -1,5 +1,5 @@
 import BreadCrumb from "@/components/common/BreadCrumb"
-import FooterThree from "@/layouts/footers/FooterThree"
+// import FooterThree from "@/layouts/footers/FooterThree"
 import ErrorArea from "./ErrorArea"
 
 const NotFound = () => {
@@ -9,7 +9,7 @@ const NotFound = () => {
             <BreadCrumb sub_title="Page Not Found" title="404" />
             <ErrorArea />
          </main>
-         <FooterThree />
+         {/* <FooterThree /> */}
       </>
    )
 }

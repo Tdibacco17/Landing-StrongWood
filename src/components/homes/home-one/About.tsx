@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import Count from "@/components/common/Count";
 
 import about_1 from "@/assets/imgs/about/Foto 2 Strong.webp"
 import about_2 from "@/assets/imgs/about/Foto 1 Strong.webp"

@@ -3848,6 +3848,16 @@ transform: skewX(-25deg);
   outline: none;
 }
 
+textarea {
+  border: none;
+  border-radius: 0;
+  min-height: 100px;
+  max-height: 350px;
+  line-height: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 .contact__select{
   position: relative;
 }
@@ -6376,6 +6386,13 @@ transform: skewX(-25deg);
     color: #fff;
 }
 
+.btn-hover-2 {
+  background:  #fff;
+  color: #000;
+  border-color: #fff !important;
+  border-width: 1px !important;
+  border-radius: 0px !important;
+}
 
 /*----------------------------------------*/
 /* PAGE TITLE CSS START

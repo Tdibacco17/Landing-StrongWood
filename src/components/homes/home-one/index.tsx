@@ -5,7 +5,6 @@ import Service from "./Service"
 import Process from "./Process"
 import TextSlider from "./TextSlider"
 import Testimonial from "./Testimonial"
-import Counter from "./Counter"
 import FooterOne from "@/layouts/footers/FooterOne"
 
 const HomeOne = () => {
