@@ -3,10 +3,10 @@ import Link from "next/link"
 import { useState } from "react";
 import Image, { StaticImageData } from "next/image";
 
-import service_img1 from "@/assets/imgs/service/service-1.webp";
-import service_img2 from "@/assets/imgs/service/service-2.webp";
-import service_img3 from "@/assets/imgs/service/service-3.webp";
-import service_img4 from "@/assets/imgs/service/service-4.webp";
+import service_img1 from "@/assets/imgs/service/Service-1.webp";
+import service_img2 from "@/assets/imgs/service/Service-2.webp";
+import service_img3 from "@/assets/imgs/service/Service-3.webp";
+import service_img4 from "@/assets/imgs/service/Service-4.webp";
 
 
 interface TabData {
@@ -58,7 +58,7 @@ const service_data: DataType[] = [
     },
     {
         id: 3,
-        thumb: service_img3, 
+        thumb: service_img3,
         title: "Vanitories y Muebles de Baño",
         desc: "Equipamiento para baños que combina un diseño superior con alta resistencia a la humedad, un punto clave para la durabilidad y la calidad final.",
         list: ["Materiales aptos para zonas húmedas.", "Diseño integrado con la mesada.", "Soluciones para baños y lavaderos."],
