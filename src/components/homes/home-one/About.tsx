@@ -1,8 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import about_1 from "@/assets/imgs/about/Foto 2 Strong.webp"
-import about_2 from "@/assets/imgs/about/Foto 1 Strong.webp"
+import about_1 from "@/assets/imgs/about/Foto_2_Strong.webp"
+import about_2 from "@/assets/imgs/about/Foto_1_Strong.webp"
 
 interface DataType {
    sub_title: string;
